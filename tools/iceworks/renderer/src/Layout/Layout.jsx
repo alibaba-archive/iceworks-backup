@@ -9,6 +9,7 @@ import { openInBrowser } from '../external';
 import Icon from '../components/Icon';
 import Link from '../components/Link';
 import User from '../components/User';
+import Notice from '../components/Notice';
 import services from '../services';
 
 import './Layout.scss';
@@ -58,6 +59,7 @@ class SidebarLayout extends Component {
             className
           )}
         >
+          <Notice />
           <Layout.Section className="ice-admin__layout__body">
             <Layout.Aside width={ASIDE_WIDTH} className="iceworks-aside">
               <div className="iceworks-menu">
