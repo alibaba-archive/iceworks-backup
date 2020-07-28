@@ -17,7 +17,7 @@ class Notice extends Component {
     return !this.state.hidden && (
     <div className="component-notice">
       <a href="https://ice.work/iceworks">
-        Iceworks 客户端已停止维护，请使用最新的 Iceworks 套件 >>>
+        Iceworks 2.0 已停止维护，请使用最新的版本 >>>
       </a>
       <Icon type="close" size="xs" onClick={this.handleClose} />
     </div>
