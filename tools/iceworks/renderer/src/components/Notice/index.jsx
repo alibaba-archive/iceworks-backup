@@ -1,7 +1,3 @@
-// http://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=568722&keyword=
-
-// 使用 custom 生成自定义 ICON 组件
-
 import React, { Component } from 'react';
 import { Icon } from '@icedesign/base';
 import './index.scss';
