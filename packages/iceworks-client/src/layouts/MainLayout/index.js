@@ -4,6 +4,7 @@ import NavigationBar from '@components/NavigationBar';
 import SubRoutes from '@components/SubRoutes';
 import ConnectModal from '@components/ConnectModal';
 import GlobalBar from '@components/GlobalBar';
+import Notice from '@components/Notice';
 import menuConfig from '@src/menuConfig';
 import routerConfig from '@src/routerConfig';
 import stores from '@stores';
@@ -38,6 +39,7 @@ const MainLayout = () => {
 
   return (
     <div className={styles.container}>
+      <Notice />
       <ConnectModal />
       <div className={styles.content}>
         <NavigationBar
